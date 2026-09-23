@@ -11,8 +11,9 @@ RUN apt-get update && \
     tlmgr install \
       enumitem titlesec xcharter xcharter-math fontaxes mweights carlisle etoolbox \
       xstring geometry fancyhdr xkeyval microtype hyperxmp \
-      datetime2 datetime2-english embedfile && \
-    tlmgr path add
+      datetime2 datetime2-english embedfile ly1 && \
+    tlmgr path add && \
+    test -f /root/.TinyTeX/texmf-dist/tex/latex/xcharter/XCharter.sty
 
 WORKDIR /data
 ENTRYPOINT ["pdflatex"]
