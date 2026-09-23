@@ -32,25 +32,25 @@ Welcome to my resume repository! This repository contains my resume written in T
 <p>1. <strong>Clone the repository</strong>:</p>
 
 ```sh
-git clone git@github.com:anishshobithps/resume.git
+git clone git@github.com:nitishdeshmukh/my-resume.git
 ```
 
 Or via HTTPS:
 
 ```sh
-git clone https://github.com/anishshobithps/resume.git
+git clone https://github.com/nitishdeshmukh/my-resume.git
 ```
 
 <p>2. <strong>Build the Docker image</strong>:</p>
 
 ```sh
-docker build -t latex-builder .docker
+docker build -t resume-builder .docker
 ```
 
 <p>3. <strong>Compile the resume</strong>:</p>
 
 ```sh
-docker run --rm -v "$(pwd):/data" latex-builder -jobname="Anish_Shobith_P_S_Resume" main.tex
+docker run --rm -v "$(pwd):/data" resume-builder -jobname="Nitish_Deshmukh_Resume" main.tex
 ```
 
 > [!NOTE]
@@ -70,7 +70,7 @@ The compiled PDF contains rich embedded metadata across multiple standards, read
 Verify the metadata after compiling:
 
 ```sh
-exiftool -xmp:all Anish_Shobith_P_S_Resume.pdf
+exiftool -xmp:all Nitish_Deshmukh_Resume.pdf
 ```
 
 Extract embedded attachments:
