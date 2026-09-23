@@ -4,7 +4,7 @@
     "name": "Nitish Deshmukh",
     "label": "Full Stack Developer",
     "email": "nitishdeshmukh24@gmail.com",
-    "url": "https://nitishdeshmukh.com",
+    "url": "https://itsnitish-nine.vercel.app",
     "summary": "Full Stack Developer experienced in building modern web applications, RESTful APIs, real-time systems, and scalable backend services using React, Next.js, Node.js, TypeScript, PostgreSQL, MongoDB, and Redis.",
     "location": {
       "city": "Bhilai",
@@ -118,8 +118,8 @@
   ],
   "projects": [
     {
-      "name": "itsnitish.com",
-      "url": "https://nitishdeshmukh.com",
+      "name": "itsnitish-nine.vercel.app",
+      "url": "https://itsnitish-nine.vercel.app",
       "description": "Full-stack developer portfolio with an MDX blog and modern component-driven UI built with Next.js and TypeScript.",
       "keywords": [
         "Next.js",
@@ -158,7 +158,7 @@
     }
   ],
   "meta": {
-    "canonical": "https://nitishdeshmukh.com",
+    "canonical": "https://itsnitish-nine.vercel.app",
     "version": "v2.1.0",
     "lastModified": "2026-07-18"
   }

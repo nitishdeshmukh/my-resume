@@ -3,12 +3,12 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://itsnitish.com",
+      "@id": "https://itsnitish-nine.vercel.app",
       "name": "Nitish Deshmukh",
       "alternateName": "nitish",
       "jobTitle": "Full Stack Developer",
       "email": "nitishdeshmukh24@gmail.com",
-      "url": "https://itsnitish.com",
+      "url": "https://itsnitish-nine.vercel.app",
       "sameAs": [
         "https://github.com/nitishdeshmukh",
         "https://www.linkedin.com/in/nitish-deshmukh",
@@ -93,7 +93,7 @@
         {
           "@type": "SoftwareSourceCode",
           "name": "nitishdeshmukh.com",
-          "url": "https://nitishdeshmukh.com",
+          "url": "https://itsnitish-nine.vercel.app",
           "programmingLanguage": [
             "Next.js",
             "TypeScript",
@@ -113,14 +113,14 @@
     },
     {
       "@type": "CreativeWork",
-      "@id": "https://nitishdeshmukh.com/cv",
+      "@id": "https://itsnitish-nine.vercel.appcv",
       "name": "Nitish Deshmukh - CV",
       "alternateName": [
         "Nitish Deshmukh - Resume",
         "Nitish Deshmukh - Curriculum Vitae"
       ],
       "about": {
-        "@id": "https://nitishdeshmukh.com"
+        "@id": "https://itsnitish-nine.vercel.app"
       },
       "hasPart": [
         {
@@ -207,7 +207,7 @@
             {
               "@type": "ListItem",
               "position": 1,
-              "name": "itsnitish.com"
+              "name": "itsnitish-nine.vercel.app"
             }
           ]
         }
